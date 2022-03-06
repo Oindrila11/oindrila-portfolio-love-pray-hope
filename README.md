@@ -24,7 +24,7 @@ I think my website is simple and functional which makes it different than others
 
 ## Deployed link
  
-[find the deployed link to the website here]()
+[find the deployed link to the website here](https://oindrila11.github.io/oindrila-portfolio-love-pray-hope/)
 
 ## License & Copyright
 
