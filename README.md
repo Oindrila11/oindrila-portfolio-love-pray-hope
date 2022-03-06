@@ -30,5 +30,5 @@ I think my website is simple and functional which makes it different than others
 
 © Oindrila Talukder, University of Toronto Web Developer.
 
-Licensed under the [MIT License](LICENSE)
+Licensed under the [MIT License](LICENSE.md)
 
