@@ -5,6 +5,7 @@
     box-sizing: border-box;
   }
 
+
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code pro', monospace;
@@ -33,7 +34,7 @@
     
   }
 /* apply style to <body> */
-body {
+html,body {
     color: var(--clr-light);
     font-family: var(--ff-primary);
     display: flex;
@@ -41,6 +42,7 @@ body {
     margin: 0;
     padding: 0;
     justify-content: flex-start;
+    overflow-x:hidden;
   }
 /* apply style to <header> */
     header {
@@ -167,12 +169,11 @@ body {
  
  .projects {
   text-align: center;
-  overflow: auto;
   display: inline-block;
-  padding-top: 40px;
-  Padding-bottom: 40px; 
+  padding-top: 40px 40px 10px;
   background-color: var(--clr-accent);
-  padding-right: 10px;
+  
+  
   }
    
 .projects h2 {
@@ -180,33 +181,37 @@ body {
   font-size: 35px;
   margin-top: 10px;
  } 
- 
- .column {
-   
-   flex:33.33%;
-   padding: 0px;
-   float:left;
-    
- }
- .row::after {
-  content: "";
-  clear: both;
-  display: table;
-  
- }
+.container{
+  display: flex;
+  justify-content:space-around;
+  border-right: 30px;
+  border-left: 20px;
+  overflow: hidden;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 0px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.column1 {
+  grid-column: 1 / 5;
+}
+
  img {
   
    width: 300px;
    height: 400px;
    object-fit:cover;
  }
- .container {
-   position: relative;
-   font-family: var(--ff-primary);
-   margin-right: 10px;;
-   
-   
- }
+
  .text-block {
    display: flex;
    justify-content: center;
