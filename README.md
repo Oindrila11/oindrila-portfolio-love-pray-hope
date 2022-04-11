@@ -21,6 +21,9 @@ I believe my biggest achievement from this assignment was learning to build a we
 
 I think my website is simple and functional which makes it different than others.
 
+## Screenshot
+![](assets/images/portfolio.png)
+
 
 ## Deployed link
  
