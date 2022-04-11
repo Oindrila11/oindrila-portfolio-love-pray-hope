@@ -11,9 +11,6 @@ Used semantic HTML to make it look more organised.
 
 The purpose of this project was to build a portfolio website that is functional as well as shows all the work that I have been able to achieve so far. So far I think it meets that criteria. 
 
-However there are couple of mistakes that I was not able to fix at this time. For instance I noticed that the right side of "my Projects" section is not aligning with the rest of the content and also there is a space between the footer and the project section. 
-
-I intend to fix that in future. Also I want to to able to design the main section of the website little bit differently so that it looks better and works more efficiently.
 
 There were couple of challanges that I faced while making the website. I think Working with flexbox and adding links to images were most difficult. 
 
